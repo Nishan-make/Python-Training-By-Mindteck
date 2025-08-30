@@ -1,0 +1,7 @@
+Tuple - 
+* very similar to list
+* Ordered
+* once created can't modify further
+* Immutanle
+* Can contain duplicate value
+* can be declared like codingLanguage = ('Java', 'C++') 

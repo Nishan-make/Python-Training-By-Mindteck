@@ -1,0 +1,28 @@
+Data types - 
+1. Primitive (Built in types)
+    - int
+    - float
+    - complex (like 14+4j)
+    - boolean
+    - Text
+2. Non Primitive (collection)
+    - list - ordered and mutable
+    - tuple - ordered amd immutable
+    - range - immutable (r = range(2,5))
+    - dictionary - key_value pair (person = {"name" : "Viren", "city"}) mutable
+    - set - unordered collection of element with no duplicates (rollno = {1, 2, 3})
+    - frozen set - immutable set (a = frozenset([2,3,7]))
+
+| Type        | Ordered | Mutable | Duplicates Allowed    | Key Features                             |
+| ----------- | ------- | ------- | --------------------- | ---------------------------------------- |
+| `list`      | Yes     | Yes     | Yes                   | Dynamic array, fast indexing             |
+| `tuple`     | Yes     | No      | Yes                   | Immutable list, safer                    |
+| `set`       | No      | Yes     | No                    | Unique elements, fast membership testing |
+| `frozenset` | No      | No      | No                    | Immutable set                            |
+| `dict`      | Yes\*   | Yes     | Keys: No, Values: Yes | Key-value pairs                          |
+| `range`     | Yes     | No      | Yes                   | Immutable numeric sequence               |
+
+
+3. Special
+    - NoneType - this means no value
+4. User defined
